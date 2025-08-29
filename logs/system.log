@@ -1,0 +1,745 @@
+2025-08-29 21:23:46,486 - feature_extractor - INFO - 正在初始化特征提取模型...
+2025-08-29 21:24:41,805 - huggingface_hub.file_download - WARNING - Error while downloading from https://cas-bridge.xethub.hf.co/xet-bridge-us/621ffdc136468d709f17ea62/b9309dbadde00679b71e6cfd0d387b79e0b29d222133240986eaf9b4e3cd9e62?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20250829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250829T131106Z&X-Amz-Expires=3600&X-Amz-Signature=2abfa56698008f697284b503e339c3e0b0fe83a0c0807575feabbc1f30e96818&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&x-id=GetObject&Expires=1756476666&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1NjQ3NjY2Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82MjFmZmRjMTM2NDY4ZDcwOWYxN2VhNjIvYjkzMDlkYmFkZGUwMDY3OWI3MWU2Y2ZkMGQzODdiNzllMGIyOWQyMjIxMzMyNDA5ODZlYWY5YjRlM2NkOWU2MioifV19&Signature=XpB9-FlmPufXyDcz8XVowAzg1MpbhRHSUjpo%7EZCqD4Uc-XFbmQa3KQz3x0RuO3oUy5YfdlMh%7EI4-s3AauXDKJtoS9SAWtKLNcSpwqDwwxSPyCB56uepOBwdx7-OCASC20ujFlK01AdSGelcQS8W7IOsZRs6QLdi4ydSlWBB6zZjbmRhRB0luLxmPEcNbpH9EFzLeSZTveTySxqJ-c57O1Uqb%7EHRYgXin8esvIkQbF796iZqE5YVGZIXF%7EHFRisiosqrKwU-78QZqVEyr-Dzln4j2d0shHU%7EbfQvRo%7EaStrkJx55oHTC9ExHEqrZYvula7cdQxdI-x5QltNKGQHprXw__&Key-Pair-Id=K2L8F4GPSG1IFC: HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out.
+Trying to resume download...
+2025-08-29 21:27:27,786 - feature_extractor - ERROR - 模型初始化失败: invalid hash value (expected "0676ba61", got "8ecc4b2f8922cc9ee4c70d7aec26defdca71724d9e064ad5bdbf7f25592a3930")
+2025-08-29 21:27:27,790 - retrieval_engine - INFO - 加载 3 个视频特征
+2025-08-29 21:27:27,841 - retrieval_engine - INFO - 构建特征矩阵: torch.Size([3, 512])
+2025-08-29 21:28:55,772 - feature_extractor - INFO - 正在初始化特征提取模型...
+2025-08-29 21:29:20,144 - feature_extractor - INFO - 所有模型初始化完成
+2025-08-29 21:29:20,434 - retrieval_engine - INFO - 加载 3 个视频特征
+2025-08-29 21:29:20,435 - retrieval_engine - INFO - 构建特征矩阵: torch.Size([3, 512])
+2025-08-29 21:29:58,572 - feature_extractor - INFO - 正在初始化特征提取模型...
+2025-08-29 21:30:08,842 - feature_extractor - INFO - 所有模型初始化完成
+2025-08-29 21:30:09,068 - retrieval_engine - INFO - 加载 3 个视频特征
+2025-08-29 21:30:09,069 - retrieval_engine - INFO - 构建特征矩阵: torch.Size([3, 512])
+2025-08-29 21:31:21,678 - data_loader - INFO - 开始加载查询数据...
+2025-08-29 21:31:21,680 - data_loader - INFO - 成功加载 3 条查询数据
+2025-08-29 21:31:21,680 - data_loader - INFO - 开始加载查询数据集文件...
+2025-08-29 21:31:21,718 - data_loader - INFO - 成功加载 1135 个查询数据集文件
+2025-08-29 21:31:21,719 - data_loader - INFO - 开始预处理查询数据...
+2025-08-29 21:31:21,719 - data_loader - INFO - 成功预处理 3 条查询
+2025-08-29 21:31:21,720 - feature_extractor - INFO - 正在初始化特征提取模型...
+2025-08-29 21:31:31,293 - feature_extractor - INFO - 所有模型初始化完成
+2025-08-29 21:31:31,495 - retrieval_engine - INFO - 加载 3 个视频特征
+2025-08-29 21:31:31,495 - retrieval_engine - INFO - 构建特征矩阵: torch.Size([3, 512])
+2025-08-29 21:32:54,445 - data_loader - INFO - 开始加载查询数据...
+2025-08-29 21:32:54,447 - data_loader - INFO - 成功加载 3 条查询数据
+2025-08-29 21:32:54,448 - data_loader - INFO - 开始加载查询数据集文件...
+2025-08-29 21:32:54,482 - data_loader - INFO - 成功加载 1135 个查询数据集文件
+2025-08-29 21:32:54,482 - data_loader - INFO - 开始预处理查询数据...
+2025-08-29 21:32:54,482 - data_loader - INFO - 成功预处理 3 条查询
+2025-08-29 21:32:54,483 - feature_extractor - INFO - 正在初始化特征提取模型...
+2025-08-29 21:33:04,446 - feature_extractor - INFO - 所有模型初始化完成
+2025-08-29 21:33:04,660 - retrieval_engine - INFO - 加载 3 个视频特征
+2025-08-29 21:33:04,660 - retrieval_engine - INFO - 构建特征矩阵: torch.Size([3, 512])
+2025-08-29 21:34:39,417 - feature_extractor - INFO - 正在初始化特征提取模型...
+2025-08-29 21:34:49,267 - feature_extractor - INFO - 所有模型初始化完成
+2025-08-29 21:34:49,267 - __main__ - INFO - 多模态视频检索系统初始化完成
+2025-08-29 21:34:49,268 - __main__ - INFO - 开始加载数据...
+2025-08-29 21:34:49,269 - data_loader - INFO - 开始加载视频数据集...
+2025-08-29 21:34:49,272 - data_loader - INFO - 成功加载 551 个视频文件
+2025-08-29 21:34:49,272 - data_loader - INFO - 开始加载查询数据...
+2025-08-29 21:34:49,274 - data_loader - INFO - 成功加载 3 条查询数据
+2025-08-29 21:34:49,275 - data_loader - INFO - 开始加载查询数据集文件...
+2025-08-29 21:34:49,309 - data_loader - INFO - 成功加载 1135 个查询数据集文件
+2025-08-29 21:34:49,309 - data_loader - INFO - 开始预处理查询数据...
+2025-08-29 21:34:49,309 - data_loader - INFO - 成功预处理 3 条查询
+2025-08-29 21:34:49,310 - data_loader - INFO - 开始验证数据一致性...
+2025-08-29 21:34:49,310 - data_loader - WARNING - 查询中引用的视频文件不存在: ['video1.mp4', 'video2.mp4', 'video3.mp4']...
+2025-08-29 21:34:49,311 - data_loader - INFO - 数据统计: {'total_queries': 3, 'text_queries': np.int64(3), 'audio_queries': np.int64(3), 'image_queries': np.int64(3), 'video_count': 551, 'multimodal_queries': 3}
+2025-08-29 21:34:49,311 - __main__ - INFO - 数据加载完成: {'total_queries': 3, 'text_queries': np.int64(3), 'audio_queries': np.int64(3), 'image_queries': np.int64(3), 'video_count': 551, 'multimodal_queries': 3}
+2025-08-29 21:34:49,312 - __main__ - INFO - 开始特征提取...
+2025-08-29 21:34:49,312 - __main__ - INFO - 提取视频特征...
+2025-08-29 21:34:49,312 - feature_extractor - INFO - 开始批量提取 551 个视频的特征...
+2025-08-29 21:34:49,444 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\-4IHddE4D5w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:34:49,444 - __main__ - ERROR - 特征提取失败: type object 'Config' has no attribute 'VIDEO_FEATURE_DIM'
+2025-08-29 21:34:49,444 - __main__ - ERROR - 完整流程执行失败: type object 'Config' has no attribute 'VIDEO_FEATURE_DIM'
+2025-08-29 21:35:46,882 - feature_extractor - INFO - 正在初始化特征提取模型...
+2025-08-29 21:35:56,622 - feature_extractor - INFO - 所有模型初始化完成
+2025-08-29 21:35:56,623 - __main__ - INFO - 多模态视频检索系统初始化完成
+2025-08-29 21:35:56,624 - __main__ - INFO - 开始加载数据...
+2025-08-29 21:35:56,625 - data_loader - INFO - 开始加载视频数据集...
+2025-08-29 21:35:56,628 - data_loader - INFO - 成功加载 551 个视频文件
+2025-08-29 21:35:56,628 - data_loader - INFO - 开始加载查询数据...
+2025-08-29 21:35:56,631 - data_loader - INFO - 成功加载 3 条查询数据
+2025-08-29 21:35:56,631 - data_loader - INFO - 开始加载查询数据集文件...
+2025-08-29 21:35:56,665 - data_loader - INFO - 成功加载 1135 个查询数据集文件
+2025-08-29 21:35:56,665 - data_loader - INFO - 开始预处理查询数据...
+2025-08-29 21:35:56,665 - data_loader - INFO - 成功预处理 3 条查询
+2025-08-29 21:35:56,666 - data_loader - INFO - 开始验证数据一致性...
+2025-08-29 21:35:56,666 - data_loader - WARNING - 查询中引用的视频文件不存在: ['video1.mp4', 'video2.mp4', 'video3.mp4']...
+2025-08-29 21:35:56,667 - data_loader - INFO - 数据统计: {'total_queries': 3, 'text_queries': np.int64(3), 'audio_queries': np.int64(3), 'image_queries': np.int64(3), 'video_count': 551, 'multimodal_queries': 3}
+2025-08-29 21:35:56,668 - __main__ - INFO - 数据加载完成: {'total_queries': 3, 'text_queries': np.int64(3), 'audio_queries': np.int64(3), 'image_queries': np.int64(3), 'video_count': 551, 'multimodal_queries': 3}
+2025-08-29 21:35:56,668 - __main__ - INFO - 开始特征提取...
+2025-08-29 21:35:56,668 - __main__ - INFO - 提取视频特征...
+2025-08-29 21:35:56,668 - feature_extractor - INFO - 开始批量提取 551 个视频的特征...
+2025-08-29 21:35:56,707 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\-4IHddE4D5w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:56,773 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\-8NaVGEccgc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:56,799 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\-H6mDMU9uWs.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:56,822 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\-UuijRTfRMc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:56,847 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\-tuGNsZPikQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:56,870 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\-wyijIST4-M.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:56,891 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\0LMXX25ALlE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:56,921 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\0SUbpgBzZoQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:56,944 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\0cutDaLcqLg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:56,969 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\0uYzM9cwNas.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:56,997 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\0xybXrdeSTk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,022 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\0yWx7c5zkB8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,051 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\11YgWtB-VwY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,076 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\13JzLEw3ZhY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,106 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\14bRmzauQFE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,133 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\1d3yw2533xk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,158 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\1eUhHa9wzJQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,182 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\1nQp_Yb8YW0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,208 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\1y2geWcqvw8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,234 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\2ESPauwYUnQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,261 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\2GChi08z2RA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,289 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\2JZ2o8fK18g.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,311 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\2LQSEDNvbFU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,334 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\2Ziy4XqdXJw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,358 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\2j3rvfjGvOg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,384 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\2yeOGX_3eJI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,410 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\38GqqShQbZQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,437 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\3DgpV2GIWeo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,457 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\3IRQpnmMFyo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,484 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\3L502jDHMfI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,511 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\3NP6wlVzOaM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,539 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\3STk-HcfHjQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,564 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\3Xh3SiKTal4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,590 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\3eE-PfJGtnM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,618 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\3g2_eG0KiCE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,644 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\45kvj5E7sA4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,670 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\4CHtEuIGPPQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,696 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\4JuKffIge6w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,715 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\4TzjH1zaDfw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,739 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\4bgWwnZQPaA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,762 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\4kiZIDOUQAo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,787 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\4q4uI3aTXk4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,814 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\4q7uW0w3ZRc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,840 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\4zdVwJ2rYKQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,866 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\5-_i88r98XA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,890 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\53LXOOFiEtc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,915 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\55WzTSED5SI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,941 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\56KQ-URhE_c.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,962 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\571P9hzQaqk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:57,985 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\58IB3NKwD2U.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,008 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\5ErPb9BLe7A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,033 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\5FH9cGFPWZw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,061 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\5TRGxKCRumA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,087 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\5UhVvvbadus.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,107 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\5_-8QHzXU94.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,134 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\5bjExCVDvBI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,150 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\5sO2W10iiW0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,172 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\6OK88K1XHYE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,199 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\6RqgOapJEUI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,227 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\6a7kQH627jg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,244 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\6tM6nrYaiHc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,261 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\7GG0r3QgBB4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,287 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\7HAKo9I_GIw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,305 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\7L4Wr9rzar4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,322 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\7O7Z9JYUURA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,338 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\7RwXC8XyR3M.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,360 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\7vdgJGBdOGc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,377 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\7yOH6IlMM0E.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,394 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\8-Gzr96yUjA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,418 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\856b6YgT7v8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,438 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\8WMmXD5l9fY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,455 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\8c-eU4zDzN4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,475 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\8eRBFG1IafA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,494 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\8v4otx7s-Cg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,516 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\8vozjfDycV0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,536 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\8xawALD-cB4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,554 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\8yILVrT9Jns.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,574 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\9-vDEaf6V9I.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,592 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\9IZ42IXDpuc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,620 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\9KCy9ZKK2Nc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,640 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\9NWFMwhEZg8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,657 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\9RhoGtRWE4g.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,673 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\9_9gu_7Tz8A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,690 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\9gf0nZn-Uro.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,714 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\9nTB9XDVbW8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,738 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\A3QxiyGu2TM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,760 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\A59eadrMTCo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,777 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\A6G6weok8NA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,797 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\A7sd62BATeU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,813 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ANCfukeWY-M.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,834 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\APXZKV2L5yc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,852 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\AWgy8p1AJm0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,868 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Aao-7h3-Ueo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,889 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Aj8iLckSntc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,906 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Ak_aWGA9qZM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,927 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\AkrROpBcsCk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,943 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\B9hdVJVxT2w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,961 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\BOkuVqIbCRA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,978 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\BWBWEvYTF9E.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:58,997 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\BcDQJynATUk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,013 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Bdyy85oAOAw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,029 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\BlJHY0jApi0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,046 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\BoMqI5t6Oos.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,064 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Bq-J5WHOnbI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,086 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\BwnvUX5_Bb0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,103 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\BzH7A8czBds.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,121 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\CA4bt_wtuZY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,139 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\CEPMQ4wybgI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,158 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\CSGi2mBh0Os.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,175 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\CTPP9rfd5DU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,192 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\CcQ8DSGQp3w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,211 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\CcwpI3Zg7H0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,235 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\CsUBBTo3tM0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,251 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Cvym6uVKOc4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,269 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\CwJ5yjfCXg8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,288 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\D9E5ETR9e4Y.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,312 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\DA6HxZUH7VQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,329 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\DGYvzn6-EAE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,346 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\DJIgPlvziw4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,365 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\DKIALu1a_ek.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,381 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\DabAXAUZtiQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,399 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\DdY5QJbLI9U.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,416 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Deov8hMyUrw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,435 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\DidP2c8UbvU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,451 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\DpBfdHp2rAo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,468 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Dss9os2QOPg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,487 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\DyQBup4HPVs.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,505 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\E1CWby0lOKo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,527 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\E4flCR4_-Dg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,546 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\E5k7478hbic.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,565 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\EFITQYoEa0Q.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,581 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\EFQC2MjMKns.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,599 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\EJQJdYqbNQY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,615 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\EiT_WKOrf_8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,631 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\EmmZ_r3-gTs.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,646 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Eq3jZeo3jqI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,667 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Eq3mYuXIP1I.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,683 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ErypPXw93QM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,702 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\F5JeSnLF_N0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,727 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\FGGEJaRuR8I.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,746 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\FWtX9p3IB-E.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,772 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\FXGnaTRhuUg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,793 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Fh65EFwCZyM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,811 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\FtM5vjqySyk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,831 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\G7aIlSNuSzo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,851 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\G8XJlr6BupU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,869 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\GAh9lQmaEvI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,886 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\GRAJHGJufb0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,904 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\GSAqcW6zLVY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,920 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\GYHeNIiq7Rc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,938 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\GZiTBMbg0XU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,957 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\GbIyKKHYEJo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,974 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Gx0ON1f7J44.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:35:59,993 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Gx0R10eAsA0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,009 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\H5y3QV179Do.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,027 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\HQs3l34setw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,047 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\HVztSvphYHk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,062 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\HlyTU_zu3eE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,081 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\HmaZw8PWKhY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,097 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\HnkhQi2Li2w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,116 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\I4y3-gIG5qk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,134 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\I6vXEZ3iMV0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,152 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\IBRuh4kPleU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,167 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ILAhxwbedlk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,188 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\IOhDL4EVWIc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,207 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\IVFF4dXizms.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,231 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\IeZ7U08I65Q.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,250 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\IhFKbkWf8mc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,265 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\IlHxBUs5TOk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,289 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\IuLXpF0pkRc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,307 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Iuv0gqvLccI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,327 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Iz1C1yhe1XY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,345 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\J2KkDFXEEJ4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,361 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\J4k5LnFtcIM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,377 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\J5TLhAkmLoQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,395 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\JJFfH3kT7tc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,413 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\JJOXbrm07DU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,431 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\JYjboEsQfew.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,448 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\JaLZIAYOZu0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,463 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Jf9EEOElVTM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,481 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Jjj8FN4r6Ms.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,499 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Jqo9iKKV_Eo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,517 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\K7QyCMNDHAs.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,535 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\KDsQRGMj5N8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,554 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\KFksbO7-XoI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,574 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\KFmaFnT4QKI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,594 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\KGRGw48KhcU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,611 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\KIKeNgjhV6E.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,627 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\KQ0STd775ww.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,652 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\KT_8ww8TC9Y.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,670 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\KWj6I2zUeuk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,687 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Ku03DOoMNYw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,704 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\L-lvGFOsRX0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,731 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\L5zAUY75adU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,750 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\L9XGb-0SiMM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,767 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\L9tmlw4P_4w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,786 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\LLW9JfCfpEE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,810 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\LmCuvsTshtE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,828 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\LtENLo5vY-k.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,844 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\LyRVxDj8u5s.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,863 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\M6msyZtTL0E.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,881 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\MRrIJ1sfNEc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,897 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\MS0SMLCCtIM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,914 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\MVWuhhtvgnM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,934 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\MnyoHpbISYc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,951 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\MokSvReOT8g.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,966 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\MxhxhMS5QiA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:00,985 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\N9MueDBF0tY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,002 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\NABOvAfC03g.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,020 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\NIgYR4F5PfU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,041 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\NKItrqXhycE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,059 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\NLy71UrHElw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,075 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\NQRlx4Wb18E.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,092 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\NUPmU6whcag.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,115 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\NVTXHst6uh4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,132 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\NfHYdf_IpKY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,150 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\NgxrnP8Rm0U.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,168 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Nhu2SyYhXoQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,185 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\NoohBOpi6ow.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,202 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Ntzsfe0xzF8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,221 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\O20YRus0d68.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,239 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\OFLy91d64SE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,257 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\OUrpmy8Oa_I.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,277 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\PAktcofve00.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,294 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\PBR6B8CCUDI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,312 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\PBZ09GEbYAE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,329 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Q-UgQDoFyvw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,346 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Q3Qaofr4orw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,365 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Q6ULyip3otQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,381 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Q8Es8SIGe00.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,396 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Q9-UnYKV0CE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,412 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Q9ecZm1VIOo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,429 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\QGIQwwKD8Yw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,445 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\QI9ObXoESEo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,463 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\QKET4T2CIzU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,483 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\QOMygVidics.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,506 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Q_UIpMMSiKg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,526 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\QcFg-h2weIU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,544 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\QnMbDe-tG74.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,562 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Qsj_1SNrqVA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,580 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\QzIT9A8Dcaw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,597 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\R6zRZj4ZTmY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,614 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\RItEzaT0bss.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,641 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ROGBQhc9tCs.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,658 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\S-GYPJA2cf0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,676 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\S0CPA1fCWYY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,692 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\SN_IhH4PDPo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,713 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\SSfrCLjs_7U.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,735 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\SYswUuSup9s.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,756 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\SgKsi4cW3nw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,776 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Sm35_yCU4ks.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,796 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\So3EfVyUP64.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,816 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Sp8Xzh9LIzk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,842 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\SqoBwNrFzWc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,858 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\TC0rJWNaYY0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,881 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\TGjyPv4UMGw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,901 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\THo2YiWuU1s.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,920 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\TLEXC7YIv_w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,938 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\TS0dZccs0N0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,958 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\TY6fWUgkEKQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,976 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\TYbUtWKH_28.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:01,995 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Tc3q2dGa4lI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,014 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\U10l9KEc7wk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,039 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\UBc5N_-xdqo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,062 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\UCgkFO-TZis.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,085 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\UGqHrgqwq4Y.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,103 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\UHMZE9EUnL8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,122 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\UHZeQVolLag.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,139 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\UHdNMPBx7VM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,155 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\URuw46XYOQw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,170 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\UTS7A8wHcdk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,191 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\UugQ5wU6f2A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,212 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\VE9wt_3gPKk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,229 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\VH1VEpCvW9U.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,250 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\VNdTzQzthRE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,266 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\VOLL0u6QwUU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,286 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\VRid2IyacC8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,306 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\V_BwPfCh1Z0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,326 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Vad5fSN39nE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,344 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\VucYyXUsD3c.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,363 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\W1LKE9uSV9k.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,384 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\WAsXUOV7hwE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,400 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\WGXVRnfFsnk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,417 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\WKyuv5ap9Co.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,440 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\WVF9VG34KmQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,475 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\WYENRXA9eZo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,493 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Wh0Z5_wqNto.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,512 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\WhTqpRPEmNI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,531 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Wp0eyPyv53U.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,549 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\WpxvjKXsVyc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,567 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\X1cTSQufWls.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,585 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\XYeAGwXeeLM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,606 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\XrZKnNeIhCc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,629 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Y9u-zmH6yz0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,655 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\YPnmInIozHU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,673 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\YQWEFxPEQzE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,695 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\YW0xFSM9ko4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,715 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\YX_b02KYN9g.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,733 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Yf7ZNwxqmKk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,752 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\YrEqz8QZBLg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,769 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\Z8aE9v1tFWw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,787 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZBxzZP2mLW8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,805 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZEukuiJGCVo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,825 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZHqk-ySoUXo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,841 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZNxckGkSKnQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,858 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZQG053T3fQ0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,876 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZXn0r1BSdSM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,893 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZY-Hwq7YGYw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,912 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZZBJ2JL9FhI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,928 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZfPGAyll1-k.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,950 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZiGEN2F_spc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,968 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZjEBHiDa1HM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:02,984 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZqSIBAM8EdI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,001 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ZrXU1DVeOqo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,022 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\_-ESAPTlfA8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,050 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\_GqSqLtMX20.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,079 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\_NaAhN_WmOI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,104 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\_baOs_bMoe0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,122 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\_dJ6KwVqj1s.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,140 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\_djeD5EEnOc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,157 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\_qXeiQhdhhE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,173 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\_uH0q0yl-hA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,193 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\a1zJIztakHY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,209 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\a2NOPS0ADV0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,224 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\a4MRvyxGF5M.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,245 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\a5cCXFeLUR8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,261 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\a5g5NilhOUc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,278 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\a8Op4W6P9pE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,297 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\aQ94cOWmzRA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,317 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\aRHvWyqmmWg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,341 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\aTF8X6NK9nc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,358 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ajRdpDWHl4Y.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,379 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\allsC0dcZVM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,396 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\anY49ZsmtG0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,414 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\aogu4SX7ULg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,431 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\atnvhklQTCk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,450 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\b27Ya0szHGU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,471 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\b3HJtZbBQcc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,491 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\b8OOOCd6buQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,513 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\bCBXzFXp4xw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,529 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\bCZpW-H3T0A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,546 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\bEBEOuaQcag.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,564 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\bFyvbxuXL0g.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,581 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\bJa2uVtGQ5s.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,605 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\bl_r3ZGxmfY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,621 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\bnQJ2q36d2E.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,641 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\bpLxD8fMfP8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,666 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\bsUqSSz5A0Q.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,684 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\bxgPF6d6Ht4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,700 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\c7Q1s7ppSwc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,720 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\cH_ymnmarRU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,741 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\cIOd-cBewME.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,757 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\cKVO3tDdFFQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,773 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\cv6MCa7HOLw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,790 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\cy77XxQ5D7A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,808 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\d9huQyVSsPI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,825 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\d9mVSVlsGTU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,845 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\dXcd1GZoraY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,863 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\dkDUFlHIh64.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,878 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\dnyjVIHyli0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,898 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\dvHiIfntqRA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,914 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\dyhR-XYWa0A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,936 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\e1boXSEcj_E.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,957 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\e4acnwBoOAc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,974 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\e9DT2uKJkHU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:03,991 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\eHpur6GLer4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,008 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\eMj7ZquYpAQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,027 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\eYZzsprO3bo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,045 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\eaHUYqX5PG4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,063 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ebZyUn8xP1Y.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,082 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\einGTLfVxOE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,100 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\eqrBSeOqIHY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,119 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\esdkKXbbT-w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,139 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ewmdE3DmlL0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,157 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ey402cxltus.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,187 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\fJPGC7PXkDo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,208 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\fOzOUnEoJiY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,227 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\fP8zX6UKsRA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,247 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\fQ_ipOq1Izg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,276 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\fXUkskdp8X0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,305 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\foVxacJCVHM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,323 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\frv5JAwsfPA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,341 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\fwkZKkfDYG8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,363 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\g7Twg8XXyz8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,382 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\gGkv8oObgLk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,401 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\gHOrzMtePp8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,416 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\gMt-9mKQSjs.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,435 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\gUEfhzDKdys.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,454 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\gajb4bOu4Rs.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,472 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\gnlUBK-cvfc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,490 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\gu6sBGHLYjw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,509 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\gvBjK9Q5Sg4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,529 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\h2-B9L3PLdQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,548 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\h3CPG7h2f2Q.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,568 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\hbfQ7k7Z3aA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,584 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\hz-q9z0c8D8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,604 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\i4FV3YpH7h4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,620 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\iB677z2g-1A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,639 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\iD0QvQyhGSA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,658 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\iEqqxb2bfzM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,676 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\iHhLDPp2uX4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,697 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ii_yOWRca8A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,717 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ijuVLpXBVRE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,734 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\irYsVInEBCc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,752 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ireQAW9d4wE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,769 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\j1jF4iegy2A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,789 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\jDPRP8g2Qho.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,806 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\jQXNBFyblh4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,821 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\jetCqIkjkpU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,841 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\jhYtXcbWPgY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,858 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\jnOno2qAWXE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,875 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\jokMXZF5MZg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,893 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\jwHJwsmY7mo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,908 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\k6klYBJCjWI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,925 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\kDNC0KOs5S4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,941 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\kGiqF1XD1sw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,960 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\kKnNlUwGmeM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,978 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\kNswNkw5lNk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:04,995 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\kQzXNv3-3ik.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,012 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\kaNwPIzDlok.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,029 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\lLffGivbY-Y.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,048 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\lWx0mLVrxSg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,067 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\l_pp-1qu9Ig.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,083 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\lcAL72SJCJ8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,104 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\lvtWu5fxKmc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,122 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\lwPGTPjlxNo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,143 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\m9yFrluYbFg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,163 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\mBTZryQRfMU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,181 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\mEvFrR3o8BI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,201 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\mHfZqPtX9Lk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,221 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\mI5h4Kp17Dk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,238 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\mQn_mkTxdKo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,257 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\mRT0Va0BQH8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,277 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\mX8e0cUBpaI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,299 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\mi4zoymJ3JE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,316 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\msWkRdpx37w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,337 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\mu9PvfDG550.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,358 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\mz0CrjXWo1Y.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,378 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\n0HdUsT48p8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,399 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\n7gc3bHd1rY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,417 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\nS-1mdnl6-c.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,434 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\nX8oPykt6fk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,454 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ne8ANyoZlrQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,471 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\nje-Fv6le6Q.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,486 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\nkuInJhaMnc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,506 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\o1qvEy1oljY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,523 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\oHUO7bgO4qg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,546 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\oM-yjvraxf8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,564 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\oMVPVS4ypYI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,584 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\oUMeeLODEY8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,604 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\oW5j2Nol7RY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,621 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\olVp67R4sLo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,639 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\oqzgyydZijA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,657 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ot_sBwstblw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,674 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ovIBQp9IvRE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,693 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ozrd9Zxc8x4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,713 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\p12q79Hr1YY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,732 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\pGkg8sFpBqI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,751 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\pc79U9a73es.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,768 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\piajlE3zwe4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,785 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\pw89Ed5AdLo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,802 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\qARm_c77mlU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,818 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\qbkxVEUxXB0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,836 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ql1XK3pFXHU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,857 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\qngZudEhVzE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,880 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\rIO8tHbdr00.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,907 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\rJKPSTjx1ow.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,924 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\r_5RtkDwNsg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,943 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\rqSzacjHvJA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,963 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\rtCpq2_HthQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:05,983 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\rudzYoVsBgE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,003 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\s2HN0X5BLrQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,021 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\s9r2rH8Qhr4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,040 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\sHyijcO2o3g.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,060 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\sRs46CLNHRY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,078 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\shVfE3sk9Sk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,098 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\shuDT4KGZX0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,115 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\slZtfZWhAt0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,131 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\szjig3wmORM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,148 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\t7FW9r6hars.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,167 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\t8YWYyUUmfM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,186 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\tJOoUC_rQyI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,212 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\tTZNkncr5V4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,231 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\tWrrvvZ3Me0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,250 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\tZ7aXDhKHPc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,267 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\tmPiqK9jm7Y.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,283 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\txtBLUj8ap4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,302 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\u4E2cAhGdBA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,320 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\uAaalWAUOZI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,338 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\uJZPlX5MHlI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,355 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\uOY8JRRzkkA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,373 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\uavCHN_k0Lk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,390 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ubC-1DXt7TQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,407 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\ubRsfnqiORg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,427 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\udjyHg2_flE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,443 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\uf0J76feCl0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,468 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\upjoZBy9tf0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,487 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\uuZmrg15M-Y.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,506 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\v9cjwhClNAs.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,523 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\vS3kGzgUZmY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,540 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\vV-w8GJ3t3w.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,556 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\vX_enUO5K0Q.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,577 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\vZ58uj6RwSQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,597 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\w14TFAeelTM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,613 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\w1POwawaO90.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,630 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\w2fp5lp4OFk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,653 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\wD17hkI5ElA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,672 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\wDgmgy-31lk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,695 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\wGJjVurPlMo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,713 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\wIiYez21CSE.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,732 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\w_bL7gnGPLQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,751 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\wjKuAgMbS9o.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,767 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\wnyLaDMn9EI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,784 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\wtKrVl1uJ48.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,803 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\wwkG6mZI9ik.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,820 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\wx_pyGbfTd8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,838 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\x3ZAVVThYC4.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,855 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\x4Me_a81xUI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,874 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\x7NqUCRgBUk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,892 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\xBIxLeVXZL8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,909 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\xES_iuFYa7k.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,930 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\x_J-gdSXLgA.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,949 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\xhtqxi8yV90.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,972 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\xkzrBzOhtHw.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:06,994 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\yCpryzS8_6k.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,015 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\yFQweaI-xMk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,031 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\yGs5LCNNmmM.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,050 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\yM8Pr0F3rpc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,069 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\yaVmqSlFYoQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,085 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\yf_3MlWn4QY.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,105 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\yzQJs71JXyQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,121 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\z0pemXolcfc.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,139 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\z5trcVcik0A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,154 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\z7DSvwAJRsk.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,173 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\z8XDtF-sxoo.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,193 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zGBv3K-R8xI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,214 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zHHSOKFzmYQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,233 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zJepn8t5qdU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,255 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zKwnGRiKvPU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,271 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zMkDwx4HZu8.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,290 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zPEba46geOI.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,308 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zTBUsnGoSuU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,327 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zTX2dXJekx0.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,343 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zTusZcN2nHg.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,361 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zXmg7nvytxU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,378 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\z_1yL8bXQ1A.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,396 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zgSAF7B7_vU.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,414 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zlxGJFxlJ4k.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,431 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zme1CQaUGus.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,446 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zwqw-i0kQhQ.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,464 - feature_extractor - ERROR - 视频特征提取失败 ./video_dataset/video_dataset\zxtpAS1Y36c.mp4: 'tuple' object cannot be interpreted as an integer
+2025-08-29 21:36:07,474 - feature_extractor - INFO - 批量特征提取完成，共提取 551 个视频特征
+2025-08-29 21:36:07,474 - __main__ - INFO - 提取查询特征...
+2025-08-29 21:36:07,474 - feature_extractor - INFO - 开始批量提取 3 个查询的特征...
+2025-08-29 21:36:07,649 - __main__ - ERROR - 特征提取失败: type object 'Config' has no attribute 'TEXT_WEIGHT'
+2025-08-29 21:36:07,650 - __main__ - ERROR - 完整流程执行失败: type object 'Config' has no attribute 'TEXT_WEIGHT'
+2025-08-29 21:36:46,831 - feature_extractor - INFO - 正在初始化特征提取模型...
+2025-08-29 21:36:56,455 - feature_extractor - INFO - 所有模型初始化完成
+2025-08-29 21:36:56,456 - __main__ - INFO - 多模态视频检索系统初始化完成
+2025-08-29 21:36:56,457 - __main__ - INFO - 开始加载数据...
+2025-08-29 21:36:56,457 - data_loader - INFO - 开始加载视频数据集...
+2025-08-29 21:36:56,460 - data_loader - INFO - 成功加载 551 个视频文件
+2025-08-29 21:36:56,460 - data_loader - INFO - 开始加载查询数据...
+2025-08-29 21:36:56,463 - data_loader - INFO - 成功加载 3 条查询数据
+2025-08-29 21:36:56,463 - data_loader - INFO - 开始加载查询数据集文件...
+2025-08-29 21:36:56,498 - data_loader - INFO - 成功加载 1135 个查询数据集文件
+2025-08-29 21:36:56,498 - data_loader - INFO - 开始预处理查询数据...
+2025-08-29 21:36:56,499 - data_loader - INFO - 成功预处理 3 条查询
+2025-08-29 21:36:56,499 - data_loader - INFO - 开始验证数据一致性...
+2025-08-29 21:36:56,499 - data_loader - WARNING - 查询中引用的视频文件不存在: ['video1.mp4', 'video2.mp4', 'video3.mp4']...
+2025-08-29 21:36:56,501 - data_loader - INFO - 数据统计: {'total_queries': 3, 'text_queries': np.int64(3), 'audio_queries': np.int64(3), 'image_queries': np.int64(3), 'video_count': 551, 'multimodal_queries': 3}
+2025-08-29 21:36:56,501 - __main__ - INFO - 数据加载完成: {'total_queries': 3, 'text_queries': np.int64(3), 'audio_queries': np.int64(3), 'image_queries': np.int64(3), 'video_count': 551, 'multimodal_queries': 3}
+2025-08-29 21:36:56,501 - __main__ - INFO - 开始特征提取...
+2025-08-29 21:36:56,501 - __main__ - INFO - 提取视频特征...
+2025-08-29 21:36:56,501 - feature_extractor - INFO - 开始批量提取 551 个视频的特征...
+2025-08-29 21:36:56,718 - feature_extractor - INFO - 批量特征提取完成，共提取 551 个视频特征
+2025-08-29 21:36:56,718 - __main__ - INFO - 提取查询特征...
+2025-08-29 21:36:56,718 - feature_extractor - INFO - 开始批量提取 3 个查询的特征...
+2025-08-29 21:36:56,944 - feature_extractor - INFO - 批量查询特征提取完成，共提取 3 个查询特征
+2025-08-29 21:36:56,944 - __main__ - INFO - 特征提取完成 - 视频: 551, 查询: 3
+2025-08-29 21:36:56,944 - __main__ - INFO - 开始执行检索，方法: standard
+2025-08-29 21:36:56,944 - retrieval_engine - INFO - 加载 551 个视频特征
+2025-08-29 21:36:56,951 - retrieval_engine - INFO - 构建特征矩阵: torch.Size([551, 512])
+2025-08-29 21:36:56,951 - retrieval_engine - INFO - 加载 3 个查询特征
+2025-08-29 21:36:56,951 - retrieval_engine - INFO - 开始批量检索 3 个查询...
+2025-08-29 21:36:56,967 - retrieval_engine - INFO - 批量检索完成，共处理 3 个查询
+2025-08-29 21:36:56,967 - __main__ - INFO - 检索完成，共处理 3 个查询
+2025-08-29 21:36:56,967 - retrieval_engine - INFO - 检索统计信息: {'total_queries': 3, 'avg_similarity': np.float64(0.0), 'max_similarity': np.float64(0.0), 'min_similarity': np.float64(0.0), 'std_similarity': np.float64(0.0)}
+2025-08-29 21:36:56,968 - __main__ - INFO - 检索统计: {'total_queries': 3, 'avg_similarity': np.float64(0.0), 'max_similarity': np.float64(0.0), 'min_similarity': np.float64(0.0), 'std_similarity': np.float64(0.0)}
+2025-08-29 21:36:56,968 - __main__ - ERROR - 完整流程执行失败: type object 'Config' has no attribute 'SUBMISSION_PATH'
+2025-08-29 21:37:46,953 - feature_extractor - INFO - 正在初始化特征提取模型...
+2025-08-29 21:37:57,211 - feature_extractor - INFO - 所有模型初始化完成
+2025-08-29 21:37:57,212 - __main__ - INFO - 多模态视频检索系统初始化完成
+2025-08-29 21:37:57,213 - __main__ - INFO - 开始加载数据...
+2025-08-29 21:37:57,213 - data_loader - INFO - 开始加载视频数据集...
+2025-08-29 21:37:57,217 - data_loader - INFO - 成功加载 551 个视频文件
+2025-08-29 21:37:57,217 - data_loader - INFO - 开始加载查询数据...
+2025-08-29 21:37:57,219 - data_loader - INFO - 成功加载 3 条查询数据
+2025-08-29 21:37:57,219 - data_loader - INFO - 开始加载查询数据集文件...
+2025-08-29 21:37:57,257 - data_loader - INFO - 成功加载 1135 个查询数据集文件
+2025-08-29 21:37:57,257 - data_loader - INFO - 开始预处理查询数据...
+2025-08-29 21:37:57,258 - data_loader - INFO - 成功预处理 3 条查询
+2025-08-29 21:37:57,258 - data_loader - INFO - 开始验证数据一致性...
+2025-08-29 21:37:57,259 - data_loader - WARNING - 查询中引用的视频文件不存在: ['video1.mp4', 'video2.mp4', 'video3.mp4']...
+2025-08-29 21:37:57,260 - data_loader - INFO - 数据统计: {'total_queries': 3, 'text_queries': np.int64(3), 'audio_queries': np.int64(3), 'image_queries': np.int64(3), 'video_count': 551, 'multimodal_queries': 3}
+2025-08-29 21:37:57,260 - __main__ - INFO - 数据加载完成: {'total_queries': 3, 'text_queries': np.int64(3), 'audio_queries': np.int64(3), 'image_queries': np.int64(3), 'video_count': 551, 'multimodal_queries': 3}
+2025-08-29 21:37:57,260 - __main__ - INFO - 开始特征提取...
+2025-08-29 21:37:57,261 - __main__ - INFO - 提取视频特征...
+2025-08-29 21:37:57,261 - feature_extractor - INFO - 开始批量提取 551 个视频的特征...
+2025-08-29 21:37:57,496 - feature_extractor - INFO - 批量特征提取完成，共提取 551 个视频特征
+2025-08-29 21:37:57,496 - __main__ - INFO - 提取查询特征...
+2025-08-29 21:37:57,497 - feature_extractor - INFO - 开始批量提取 3 个查询的特征...
+2025-08-29 21:37:57,498 - feature_extractor - INFO - 批量查询特征提取完成，共提取 3 个查询特征
+2025-08-29 21:37:57,498 - __main__ - INFO - 特征提取完成 - 视频: 551, 查询: 3
+2025-08-29 21:37:57,499 - __main__ - INFO - 开始执行检索，方法: standard
+2025-08-29 21:37:57,499 - retrieval_engine - INFO - 加载 551 个视频特征
+2025-08-29 21:37:57,545 - retrieval_engine - INFO - 构建特征矩阵: torch.Size([551, 512])
+2025-08-29 21:37:57,546 - retrieval_engine - INFO - 加载 3 个查询特征
+2025-08-29 21:37:57,546 - retrieval_engine - INFO - 开始批量检索 3 个查询...
+2025-08-29 21:37:57,630 - retrieval_engine - INFO - 批量检索完成，共处理 3 个查询
+2025-08-29 21:37:57,630 - __main__ - INFO - 检索完成，共处理 3 个查询
+2025-08-29 21:37:57,631 - retrieval_engine - INFO - 检索统计信息: {'total_queries': 3, 'avg_similarity': np.float64(0.0), 'max_similarity': np.float64(0.0), 'min_similarity': np.float64(0.0), 'std_similarity': np.float64(0.0)}
+2025-08-29 21:37:57,631 - __main__ - INFO - 检索统计: {'total_queries': 3, 'avg_similarity': np.float64(0.0), 'max_similarity': np.float64(0.0), 'min_similarity': np.float64(0.0), 'std_similarity': np.float64(0.0)}
+2025-08-29 21:37:57,631 - retrieval_engine - INFO - 生成提交文件: ./submission.csv
+2025-08-29 21:37:57,634 - retrieval_engine - INFO - 提交文件已保存，包含 3 条记录
+2025-08-29 21:37:57,634 - __main__ - INFO - 提交文件已生成: ./submission.csv
+2025-08-29 21:37:57,635 - retrieval_engine - INFO - 检索评估结果: {'accuracy': 0.0, 'correct': 0, 'total': 3}
+2025-08-29 21:37:57,635 - __main__ - INFO - 性能评估完成: {'accuracy': 0.0, 'correct': 0, 'total': 3}
+2025-08-29 21:37:57,635 - __main__ - INFO - 完整流程执行完成: {'status': 'success', 'total_time': 0.42212915420532227, 'video_count': 551, 'query_count': 3, 'retrieval_method': 'standard', 'metrics': {'accuracy': 0.0, 'correct': 0, 'total': 3}, 'submission_path': './submission.csv'}
+2025-08-29 21:44:42,813 - feature_extractor - INFO - 正在初始化特征提取模型...
+2025-08-29 21:44:53,409 - feature_extractor - INFO - 所有模型初始化完成
+2025-08-29 21:44:53,410 - __main__ - INFO - 多模态视频检索系统初始化完成
+2025-08-29 21:44:53,412 - __main__ - INFO - 开始加载数据...
+2025-08-29 21:44:53,412 - data_loader - INFO - 开始加载视频数据集...
+2025-08-29 21:44:53,415 - data_loader - INFO - 成功加载 551 个视频文件
+2025-08-29 21:44:53,415 - data_loader - INFO - 开始加载查询数据...
+2025-08-29 21:44:53,418 - data_loader - INFO - 成功加载 3 条查询数据
+2025-08-29 21:44:53,418 - data_loader - INFO - 开始加载查询数据集文件...
+2025-08-29 21:44:53,457 - data_loader - INFO - 成功加载 1135 个查询数据集文件
+2025-08-29 21:44:53,459 - data_loader - INFO - 开始预处理查询数据...
+2025-08-29 21:44:53,459 - data_loader - INFO - 成功预处理 3 条查询
+2025-08-29 21:44:53,459 - data_loader - INFO - 开始验证数据一致性...
+2025-08-29 21:44:53,459 - data_loader - WARNING - 查询中引用的视频文件不存在: ['video1.mp4', 'video2.mp4', 'video3.mp4']...
+2025-08-29 21:44:53,460 - data_loader - INFO - 数据统计: {'total_queries': 3, 'text_queries': np.int64(3), 'audio_queries': np.int64(3), 'image_queries': np.int64(3), 'video_count': 551, 'multimodal_queries': 3}
+2025-08-29 21:44:53,460 - __main__ - INFO - 数据加载完成: {'total_queries': 3, 'text_queries': np.int64(3), 'audio_queries': np.int64(3), 'image_queries': np.int64(3), 'video_count': 551, 'multimodal_queries': 3}
+2025-08-29 21:44:53,461 - __main__ - INFO - 开始特征提取...
+2025-08-29 21:44:53,461 - __main__ - INFO - 提取视频特征...
+2025-08-29 21:44:53,461 - feature_extractor - INFO - 开始批量提取 551 个视频的特征...
+2025-08-29 21:44:53,686 - feature_extractor - INFO - 批量特征提取完成，共提取 551 个视频特征
+2025-08-29 21:44:53,686 - __main__ - INFO - 提取查询特征...
+2025-08-29 21:44:53,687 - feature_extractor - INFO - 开始批量提取 3 个查询的特征...
+2025-08-29 21:44:53,689 - feature_extractor - INFO - 批量查询特征提取完成，共提取 3 个查询特征
+2025-08-29 21:44:53,690 - __main__ - INFO - 特征提取完成 - 视频: 551, 查询: 3
+2025-08-29 21:44:53,690 - __main__ - INFO - 开始执行检索，方法: standard
+2025-08-29 21:44:53,690 - retrieval_engine - INFO - 加载 551 个视频特征
+2025-08-29 21:44:53,736 - retrieval_engine - INFO - 构建特征矩阵: torch.Size([551, 512])
+2025-08-29 21:44:53,737 - retrieval_engine - INFO - 加载 3 个查询特征
+2025-08-29 21:44:53,737 - retrieval_engine - INFO - 开始批量检索 3 个查询...
+2025-08-29 21:44:53,821 - retrieval_engine - INFO - 批量检索完成，共处理 3 个查询
+2025-08-29 21:44:53,821 - __main__ - INFO - 检索完成，共处理 3 个查询
+2025-08-29 21:44:53,822 - retrieval_engine - INFO - 检索统计信息: {'total_queries': 3, 'avg_similarity': np.float64(0.0), 'max_similarity': np.float64(0.0), 'min_similarity': np.float64(0.0), 'std_similarity': np.float64(0.0)}
+2025-08-29 21:44:53,822 - __main__ - INFO - 检索统计: {'total_queries': 3, 'avg_similarity': np.float64(0.0), 'max_similarity': np.float64(0.0), 'min_similarity': np.float64(0.0), 'std_similarity': np.float64(0.0)}
+2025-08-29 21:44:53,825 - data_loader - INFO - 加载样本提交文件，包含 1290 条记录
+2025-08-29 21:44:53,825 - __main__ - INFO - 根据sample_submit.csv生成 1290 行结果
+2025-08-29 21:44:53,825 - retrieval_engine - INFO - 生成提交文件: ./submission.csv，期望行数: 1290
+2025-08-29 21:44:53,829 - retrieval_engine - INFO - 提交文件已保存，包含 1290 条记录
+2025-08-29 21:44:53,829 - __main__ - INFO - 提交文件已生成: ./submission.csv
+2025-08-29 21:44:53,830 - retrieval_engine - INFO - 检索评估结果: {'accuracy': 0.0, 'correct': 0, 'total': 3}
+2025-08-29 21:44:53,830 - __main__ - INFO - 性能评估完成: {'accuracy': 0.0, 'correct': 0, 'total': 3}
+2025-08-29 21:44:53,830 - __main__ - INFO - 完整流程执行完成: {'status': 'success', 'total_time': 0.418304443359375, 'video_count': 551, 'query_count': 3, 'retrieval_method': 'standard', 'metrics': {'accuracy': 0.0, 'correct': 0, 'total': 3}, 'submission_path': './submission.csv'}

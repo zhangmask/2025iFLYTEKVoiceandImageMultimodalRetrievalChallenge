@@ -1,0 +1,4 @@
+text_search,audio_search,image_search,raw_video
+测试文本查询1,audio1.wav,image1.jpg,video1.mp4
+测试文本查询2,audio2.wav,image2.jpg,video2.mp4
+测试文本查询3,audio3.wav,image3.jpg,video3.mp4

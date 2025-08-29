@@ -1,0 +1,60 @@
+# 深度学习框架
+torch
+torchvision
+torchaudio
+transformers>=4.20.0
+
+# 多模态模型
+clip-by-openai>=1.0
+sentence-transformers>=2.2.0
+
+# 音频处理
+librosa>=0.9.0
+soundfile>=0.10.0
+
+# 图像处理
+Pillow>=9.0.0
+opencv-python>=4.6.0
+
+# 视频处理
+opencv-python>=4.6.0
+imageio>=2.19.0
+imageio-ffmpeg>=0.4.7
+
+# 数据处理
+numpy>=1.21.0
+pandas>=1.4.0
+scipy>=1.8.0
+scikit-learn>=1.1.0
+
+# 进度条和可视化
+tqdm>=4.64.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 文件处理
+h5py>=3.7.0
+joblib>=1.1.0
+
+# 系统工具
+psutil>=5.9.0
+
+# 配置和日志
+PyYAML>=6.0
+coloredlogs>=15.0
+
+# 可选：加速库
+# faiss-cpu>=1.7.0  # CPU版本的FAISS用于快速相似度搜索
+# faiss-gpu>=1.7.0  # GPU版本的FAISS（需要CUDA）
+
+# 可选：模型优化
+# onnx>=1.12.0
+# onnxruntime>=1.12.0
+# onnxruntime-gpu>=1.12.0
+
+# 开发工具（可选）
+# jupyter>=1.0.0
+# ipython>=8.0.0
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
