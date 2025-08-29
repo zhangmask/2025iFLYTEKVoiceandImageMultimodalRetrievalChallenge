@@ -1,0 +1,2 @@
+# 2025iFLYTEKVoiceandImageMultimodalRetrievalChallenge
+2025讯飞语音与图像多模态检索挑战赛
